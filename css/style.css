@@ -14,7 +14,9 @@ body {
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
-
+footer-contact a{
+  color: red;
+}
 a {
   color: #007bff;
   transition: 0.5s;
@@ -157,9 +159,22 @@ h6 {
 }
 
 #header .logo img {
+  /* Initial-code
   padding: 0;
   margin: 7px 0;
   max-height: 26px;
+
+  margin: 10px;
+  max-height: 50px ;
+  max-width: 50px;
+  */
+
+  /* New mod*/
+  
+  padding-bottom: 21px;
+  max-height: 70px;
+  max-width: 70px;
+}
 }
 
 .main-pages {
